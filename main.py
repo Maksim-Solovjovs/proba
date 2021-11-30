@@ -1,8 +1,5 @@
-def countNumbers(v): 
- summa = 0
- for simbols in v:
-    summa = summa + int(simbols)
- return summa
-v = input("ievadit skaitli :")
-rez = countNumbers(v)
+def countZeros(v):
+  return d.count("0")
+d = input("Ievadi tekstu: ")
+rez = countZeros(d)
 print(rez)
